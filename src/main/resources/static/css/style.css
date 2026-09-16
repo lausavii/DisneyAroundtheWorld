@@ -1,0 +1,44 @@
+body {
+    background-color: #f1f5ff;
+}
+
+.disney-card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.disney-header {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.disney-header h1 {
+    font-weight: 700;
+}
+
+.disney-button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+}
+
+.disney-button:hover {
+    background-color: #c92f3b;
+    color: white;
+}
+
+.park-result {
+    background-color: #f8f9fa;
+    border-left: 5px solid #1e3a8a;
+    border-radius: 8px;
+}
+
+.park-result h4 {
+    color: #1e3a8a;
+}
+
+.welcome-message {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
