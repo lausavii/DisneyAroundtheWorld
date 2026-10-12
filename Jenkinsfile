@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t disney-around-the-world:latest .'
+                bat '"C:\\Users\\laura\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build -t disney-around-the-world:latest .'
             }
         }
     }
