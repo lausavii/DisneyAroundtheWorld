@@ -18,37 +18,43 @@ public class DisneyController {
         parks.add(new DisneyPark(
                 "Disneyland",
                 "Anaheim, California",
-                "Disneyland Resort"
+                "Disneyland Resort",
+                2
         ));
 
         parks.add(new DisneyPark(
                 "Magic Kingdom",
                 "Orlando, Florida",
-                "Walt Disney World Resort"
+                "Walt Disney World Resort",
+                4
         ));
 
         parks.add(new DisneyPark(
                 "Tokyo Disneyland",
                 "Tokyo, Japan",
-                "Tokyo Disney Resort"
+                "Tokyo Disney Resort",
+                2
         ));
 
         parks.add(new DisneyPark(
                 "Disneyland Park",
                 "Marne-la-Vallée, France",
-                "Disneyland Paris"
+                "Disneyland Paris",
+                2
         ));
 
         parks.add(new DisneyPark(
                 "Hong Kong Disneyland",
                 "Hong Kong",
-                "Hong Kong Disneyland Resort"
+                "Hong Kong Disneyland Resort",
+                1
         ));
 
         parks.add(new DisneyPark(
                 "Shanghai Disneyland",
                 "Shanghai, China",
-                "Shanghai Disney Resort"
+                "Shanghai Disney Resort",
+                1
         ));
     }
 
