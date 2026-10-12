@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
 
@@ -9,6 +10,12 @@ pipeline {
         stage('Build and Test') {
             steps {
                 bat 'mvn clean package'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                bat 'docker build -t disney-around-the-world:latest .'
             }
         }
     }
